@@ -7,7 +7,7 @@
                 @click.self="handleCancel"
             >
                 <!-- Backdrop -->
-                <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div class="absolute inset-0 bg-opacity-100"></div>
 
                 <!-- Modal -->
                 <div

@@ -22,20 +22,6 @@
             </router-link>
         </div>
 
-        <!-- Error Message -->
-        <div
-            v-else-if="generalError"
-            class="bg-red-50 border border-red-200 rounded-lg p-4 mb-6"
-        >
-            <p class="text-red-800">{{ generalError }}</p>
-            <router-link
-                to="/products"
-                class="mt-4 inline-block text-blue-600 hover:text-blue-700 font-medium"
-            >
-                Voltar para Lista
-            </router-link>
-        </div>
-
         <!-- Product Details -->
         <div v-else-if="product" class="max-w-4xl mx-auto">
             <!-- Header -->
@@ -190,7 +176,7 @@ const route = useRoute();
 const router = useRouter();
 const api = useApi();
 const { showSuccess } = useNotification();
-const { handleError, generalError } = useErrorHandler();
+const { handleError } = useErrorHandler();
 
 const product = ref<Product | null>(null);
 const loading = ref(false);
