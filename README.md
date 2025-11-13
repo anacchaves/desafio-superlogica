@@ -7,7 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 Sistema Full-Stack de gerenciamento de produtos com autenticação completa, desenvolvido como parte do desafio técnico da Superlógica.
-Um exemplo pode ser acessado em: ![desafio.anachaves.dev.br](https://desafio.anachaves.dev.br/)
+Um exemplo pode ser acessado em: [desafio.anachaves.dev.br](https://desafio.anachaves.dev.br/)
 
 ## 🐳 Como Executar com Docker
 
