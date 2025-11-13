@@ -106,14 +106,3 @@ GET /api/products?search=mouse&is_active=1
 # Paginação customizada
 GET /api/products?page=2&per_page=20
 ```
-
-## Credenciais de Teste
-
-O sistema cria automaticamente um usuário de teste ao iniciar:
-
-```
-Email: test@example.com
-Senha: password123
-```
-
-Use estas credenciais para fazer login e testar todas as funcionalidades do sistema.
