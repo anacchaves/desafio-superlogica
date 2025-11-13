@@ -7,36 +7,14 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 Sistema Full-Stack de gerenciamento de produtos com autenticação completa, desenvolvido como parte do desafio técnico da Superlógica.
-
-## 🚀 Tecnologias
-
-### Backend
-
--   **Laravel 12** - Framework PHP
--   **PHP 8.2+**
--   **PostgreSQL 16** - Banco de dados
--   **Laravel Sanctum** - Autenticação via tokens
-
-### Frontend
-
--   **Vue 3** - Framework JavaScript
--   **TypeScript**
--   **Vite** - Build tool
--   **TailwindCSS** - Framework CSS
--   **Vue Router** - Roteamento SPA
-
-### Infraestrutura
-
--   **Docker** - Containerização
--   **Docker Compose** - Orquestração
--   **Nginx** - Servidor web
+Um exemplo pode ser acessado em: ![desafio.anachaves.dev.br](https://desafio.anachaves.dev.br/)
 
 ## 🐳 Como Executar com Docker
 
 ### Pré-requisitos
 
--   Docker (versão 20.10+)
--   Docker Compose (versão 2.0+)
+-   Docker 
+-   Docker Compose 
 
 ### Início Rápido
 
@@ -76,6 +54,28 @@ O sistema executará automaticamente:
 Email: test@example.com
 Senha: password123
 ```
+## 🚀 Tecnologias
+
+### Backend
+
+-   **Laravel 12** - Framework PHP
+-   **PHP 8.2+**
+-   **PostgreSQL 16** - Banco de dados
+-   **Laravel Sanctum** - Autenticação via tokens
+
+### Frontend
+
+-   **Vue 3** - Framework JavaScript
+-   **TypeScript**
+-   **Vite** - Build tool
+-   **TailwindCSS** - Framework CSS
+-   **Vue Router** - Roteamento SPA
+
+### Infraestrutura
+
+-   **Docker** - Containerização
+-   **Docker Compose** - Orquestração
+-   **Nginx** - Servidor web
 
 ## 📚 Documentação
 
