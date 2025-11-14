@@ -22,7 +22,7 @@ Um exemplo pode ser acessado em: [desafio.anachaves.dev.br](https://desafio.anac
 
 ```bash
 git clone <url-do-repositorio>
-cd <nome-do-projeto>
+cd desafio-superlogica
 ```
 
 2. Configure as variáveis de ambiente
@@ -34,7 +34,7 @@ cp .env.example .env
 3. Inicie os containers
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 O sistema executará automaticamente:
