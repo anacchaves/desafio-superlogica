@@ -46,7 +46,6 @@ class ProductController extends Controller
     public function store(StoreProductRequest $request): JsonResponse
     {
         $data = $request->validated();
-        $data['user_id'] = auth()->id();
 
         $product = $this->productService->createProduct($data);
 

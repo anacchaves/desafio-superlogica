@@ -14,11 +14,12 @@ RUN apt-get update && apt-get install -y \
     nginx \
     postgresql-client
 
+COPY . /var/www
+
 RUN docker-php-ext-install pdo pdo_pgsql mbstring exif pcntl bcmath gd
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-COPY . /var/www
 
 COPY docker/nginx.conf /etc/nginx/sites-available/default
 COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
